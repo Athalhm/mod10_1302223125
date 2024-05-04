@@ -30,3 +30,4 @@ C:\Users\PRAKTIKAN\Documents\modul10_1302223125\modul10_1302223125\obj\Debug\net
 C:\Users\PRAKTIKAN\Documents\modul10_1302223125\modul10_1302223125\obj\Debug\net8.0\modul10_1302223125.pdb
 C:\Users\PRAKTIKAN\Documents\modul10_1302223125\modul10_1302223125\obj\Debug\net8.0\modul10_1302223125.genruntimeconfig.cache
 C:\Users\PRAKTIKAN\Documents\modul10_1302223125\modul10_1302223125\obj\Debug\net8.0\ref\modul10_1302223125.dll
+C:\Users\PRAKTIKAN\Documents\modul10_1302223125\modul10_1302223125\obj\Debug\net8.0\modul10_1302223125.sourcelink.json

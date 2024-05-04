@@ -8,36 +8,33 @@ namespace modul10_1302223125.Controllers
     [ApiController]
     public class MahasiswaController : ControllerBase
     {
+        public static List<Mahasiswa> Mhs = new List<Mahasiswa>();
         // GET: api/<MahasiswaController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Mahasiswa> Get()
         {
-            return new string[] { "value1", "value2" };
+            return (IEnumerable<Mahasiswa>)Mhs;
         }
 
         // GET api/<MahasiswaController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Mahasiswa Get(int id)
         {
-            return "value";
+            return Mhs[id];
         }
 
         // POST api/<MahasiswaController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Mahasiswa value)
         {
-        }
-
-        // PUT api/<MahasiswaController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
+            Mhs.Add(value);
         }
 
         // DELETE api/<MahasiswaController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(int id, [FromBody] Mahasiswa value)
         {
+            Mhs.RemoveAt(id);
         }
     }
 }
